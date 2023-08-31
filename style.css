@@ -799,22 +799,28 @@ li.dropdown {
   .disco{
     display: flex;
     justify-content: center;
+  }
+  .cercle{
+    display: block;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
   }
  
     .disum{
       width: 150px;
-      margin-top: 20px;
-      margin: auto;
       background-color: #fff;
       border-radius: 50%;
       padding: 10px;
+      margin: auto;
+    }
+    .im img{
+    height: 397px;
     }
   .summer{
     text-align: center;
-    width: 600px;
-    padding: 13px;
-    height: 365px;
+    width: 550px;
+    height: 394px;
     background-color: rgb(246, 241, 241);
   }
   .summer h6{
@@ -1236,7 +1242,7 @@ li.dropdown {
 .photo .icon-hover {
   position: absolute;
   left: 0;
-  bottom: 90px;
+  bottom: 110px;
   width: 100%;
 
 } 
@@ -1267,6 +1273,13 @@ li.dropdown {
   height: 360px;
   width: 100%;
 }
+.photos2 .icon-hover {
+  position: absolute;
+  left: 0;
+  bottom: 110px;
+  width: 100%;
+
+} 
 
 .carousel{
   background-size: cover;
@@ -1348,11 +1361,12 @@ li.dropdown {
   .disco{
     display: flex;
     flex-direction: column;
+    width: 100%;
     
   }
   .summer{
     width: 100%;
-    padding: 5px;
+    padding: 0;
   }
  .im img{
     width: 100%;
